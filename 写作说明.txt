@@ -29,5 +29,11 @@ br
                       （第二个html中）我从装着零食的盒子里拿出一块点心放进嘴里，然后也就不再说话了。
 请注意不要遗漏标点符号
 
+关于html：
+应当注意<link rel="prerender" href="../n/index.html">和<a href="/gal/gal01/game/n" target="_self">中“n”应当被改写为“n+1”
+如<link rel="prerender" href="../2/index.html">应当被改写为<link rel="prerender" href="../3/index.html">
+<a href="/gal/gal01/game/2" target="_self">应当被改写为<a href="/gal/gal01/game/3" target="_self">
+这不应当被遗忘
+
 其他：
 上述说明中没有提及的内容应当忽略不写
