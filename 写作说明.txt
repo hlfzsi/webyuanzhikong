@@ -1,0 +1,33 @@
+所有文本及写作指示存储于nscript.txt文件中
+
+关于图片：
+应均被改写为小写
+如"bg/EA01c.png"应当被改写为"bg/ea01c.png"
+引用路径应当改写为'/gal/gal01/images/xxx.png'
+如"bg/EA01c.png"应当被改写为'/gal/gal01/images/ea01c.png'
+
+关于音频：
+应当同时引用ogg与mp3两种格式的文件
+应当改写路径
+应当均被改为小写
+如dwave 0,"voice/SR000001.ogg"在html中应当被改写为如下内容
+<audio controls preload="true" autoplay="true" hidden="true">
+        <source src="/gal/gal01/voice/sr000001.ogg" type="audio/ogg">
+        <source src="/gal/gal01/voice_mp3/sr000001.mp3" type="audio/mpeg">
+</audio>
+
+关于文本：
+复制粘贴即可，通过在文本中加入<br>实现换行
+“\”意味着一句话的结束，应当使用另外的网页实现剩下的内容
+如“
+br
+这就是所谓的……“妹妹永远不理解哥哥的良苦用心”吧。\
+br
+我从装着零食的盒子里拿出一块点心放进嘴里，然后也就不再说话了。\
+”
+应当被改写为：（第一个html中）这就是所谓的……“妹妹永远不理解哥哥的良苦用心”吧。
+                      （第二个html中）我从装着零食的盒子里拿出一块点心放进嘴里，然后也就不再说话了。
+请注意不要遗漏标点符号
+
+其他：
+上述说明中没有提及的内容应当忽略不写
