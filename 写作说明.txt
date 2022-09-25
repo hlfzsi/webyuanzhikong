@@ -1,4 +1,7 @@
 所有文本及写作指示存储于nscript.txt文件中
+你可以从github或百度网盘获取该文件（如果github乱码）
+https://pan.baidu.com/s/1nzdKyazHiQ7RiE6qOGarUQ?pwd=h7mo 
+
 
 关于图片：
 应均被改写为小写
